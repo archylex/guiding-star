@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lin_bg">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/noice"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:tileMode="repeat">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/comps">
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:scaleType="center"
+                android:scaleX="0.75"
+                android:scaleY="0.75"
+                android:src="@drawable/arrow" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnLight"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:layout_weight="1"
+            android:src="@drawable/lg_on" />
+
+        <ImageButton
+            android:id="@+id/btnSOS"
+            android:layout_width="154dp"
+            android:layout_height="154dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:layout_weight="1"
+            android:src="@drawable/sos_on" />
+
+    </LinearLayout>
+
+</LinearLayout>
